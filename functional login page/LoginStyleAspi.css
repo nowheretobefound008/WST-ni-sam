@@ -1,0 +1,129 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #d3d6f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.page-container {
+    background-color: rgb(167, 195, 248);
+    width: 400px;
+    min-height: 40px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.error-message {
+    color: #080808;
+    background: #e6f4ff;
+    padding: 10px;
+    border-radius: 40px;
+    margin-bottom: 15px;
+    display: none;
+    text-align: center;
+    border: 5px solid #a491e9;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #a491e9;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #a491e9;
+    border: none;
+    border-radius: 40px;
+    color: rgb(7, 6, 6);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 1s, box-shadow 1s, transform 1s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #d7afee;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.0);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+a {
+    color: #121720;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    border-radius: 50%;
+    border: 5px solid #9ca1eb;
+    margin-right: 20px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container h1, .text-container p {
+    margin: 0;
+    text-align: left;
+}
+
+.home-content {
+    text-align: center;
+    margin: auto 0;
+}
+
+.logout-btn {
+    width: 50%;
+    padding: 15px;
+    background: #9ca1eb;
+    margin-top: 30px;
+}
+
+.password-display {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background: #e6f4ff;
+    border-radius: 40px;
+    border: 5px solid #a491e9;
+}
+
+.password-number {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 15px 0;
+    word-wrap: break-word;
+}
